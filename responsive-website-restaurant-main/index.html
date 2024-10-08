@@ -15,9 +15,14 @@
     <body>
 
         <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scrolltop__icon'></i>
-        </a>
+        <a href="#" class="scrolltop show-scroll" id="scroll-top" aria-label="Scroll to top">
+            <i class="bx bx-chevron-up scrolltop__icon" aria-hidden="true"></i>
+            <span class="visually-hidden">Scroll to top</span>
+          </a>
+          
+        <!-- <a href="#" class="scrolltop" id="scroll-top"> -->
+            <!-- <i class='bx bx-chevron-up scrolltop__icon'></i> -->
+        <!-- </a> -->
 
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
@@ -26,11 +31,37 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                                Home
+                              </a>
+                              
+                            <!-- <a href="#home" class="nav__link active-link">Home</a> -->
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                                About
+                              </a>
+                            <!-- <a href="#about" class="nav__link">About</a> -->
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                                Services
+                              </a>
+                            <!-- <a href="#services" class="nav__link">Services</a> -->
+                        </li>
+                        <li class="nav__item">
+                            <a href="#menu" class="nav__link" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                                Menu
+                              </a>
+                            <!-- <a href="#menu" class="nav__link">Menu</a> -->
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                                Contact
+                            </a>
+                            <!-- <a href="#contact" class="nav__link">Contact us</a> -->
+                        </li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
@@ -52,7 +83,7 @@
                         <a href="#" class="button">View Menu</a>
                     </div>
     
-                    <img src="assets/img/home.png" alt="" class="home__img">
+                    <img src="assets/img/home.png" alt="A bowl full of vegetable salad" class="home__img">
                 </div>
             </section>
             
@@ -60,7 +91,11 @@
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
                     <div class="about__data">
-                        <span class="section-subtitle about__initial">About us</span>
+                        <span class="section-subtitle about__initial" style="color: #FFFFFF; background-color: #003B2E;">
+                            About us
+                          </span>
+                          
+                        <!-- <span class="section-subtitle about__initial">About us</span> -->
                         <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
                         <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
                         <a href="#" class="button">Explore history</a>
@@ -72,7 +107,11 @@
 
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
-                <span class="section-subtitle">Offering</span>
+                <span class="section-subtitle" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                    Offering
+                  </span>
+                  
+                <!-- <span class="section-subtitle">Offering</span> -->
                 <h2 class="section-title">Our amazing services</h2>
 
                 <div class="services__container  bd-grid">
@@ -359,7 +398,11 @@
 
             <!--========== MENU ==========-->
             <section class="menu section bd-container" id="menu">
-                <span class="section-subtitle">Special</span>
+                <!-- <span class="section-subtitle">Special</span> -->
+                <span class="section-subtitle" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                    Special
+                  </span>
+                  
                 <h2 class="section-title">Menu of the week</h2>
 
                 <div class="menu__container bd-grid">
@@ -368,7 +411,12 @@
                         <h3 class="menu__name">Barbecue salad</h3>
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">$22.00</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <a href="#" class="button menu__button" aria-label="View cart">
+                            <i class="bx bx-cart-alt" aria-hidden="true"></i>
+                            <span class="visually-hidden">View cart</span>
+                          </a>
+                          
+                        <!-- <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a> -->
                     </div>
 
                     <div class="menu__content">
@@ -376,7 +424,12 @@
                         <h3 class="menu__name">Salad with fish</h3>
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">$12.00</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <a href="#" class="button menu__button" aria-label="View cart">
+                            <i class="bx bx-cart-alt" aria-hidden="true"></i>
+                            <span class="visually-hidden">View cart</span>
+                          </a>
+                          
+                        <!-- <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a> -->
                     </div>
                     
                     <div class="menu__content">
@@ -384,7 +437,12 @@
                         <h3 class="menu__name">Spinach salad</h3>
                         <span class="menu__detail">Delicious dish</span>
                         <span class="menu__preci">$9.50</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        <a href="#" class="button menu__button" aria-label="View cart">
+                            <i class="bx bx-cart-alt" aria-hidden="true"></i>
+                            <span class="visually-hidden">View cart</span>
+                          </a>
+                          
+                        <!-- <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a> -->
                     </div>
                 </div>
             </section>
@@ -393,16 +451,27 @@
             <section class="app section bd-container">
                 <div class="app__container bd-grid">
                     <div class="app__data">
-                        <span class="section-subtitle app__initial">App</span>
+                        <span class="section-subtitle app__initial" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                            App
+                          </span>
+                          
+                        <!-- <span class="section-subtitle app__initial">App</span> -->
                         <h2 class="section-title app__initial">App is aviable</h2>
                         <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
                         <div class="app__stores">
-                            <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
-                            <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                            <img src="assets/img/app1.png" alt="Screenshot of the app interface showing key features and layout" class="app__store">
+
+                            <!-- <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>  -->
+                            <a href="#">
+                                <img src="assets/img/app2.png" alt="Promotional graphic for the mobile app highlighting features and benefits" class="app__store">
+
+                                <!-- <img src="assets/img/app2.png" alt="" class="app__store"> -->
+                            </a>
                         </div>
                     </div>
+                    <img src="assets/img/movil-app.png" alt="Screenshot of the mobile app interface showcasing key features" class="app__img" data-sr-id="13" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -30, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1), transform 2s cubic-bezier(0.5, 0, 0, 1);">
 
-                    <img src="assets/img/movil-app.png" alt="" class="app__img">
+                    <!-- <img src="assets/img/movil-app.png" alt="" class="app__img"> -->
                 </div>
             </section>
 
@@ -410,7 +479,16 @@
             <section class="contact section bd-container" id="contact">
                 <div class="contact__container bd-grid">
                     <div class="contact__data">
-                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <!-- <span class="section-subtitle contact__initial" style="opacity: 1; color: rgb(6, 156, 84); background-color: rgb(251, 254, 253);" role="heading" aria-level="2"> -->
+                            <!-- Let's talk -->
+                          <!-- </span> -->
+
+                          <span class="section-subtitle contact__initial" style="opacity: 1; color: #FFFFFF; background-color: #007B5F;">
+                            Let's talk
+                          </span>
+                          
+                          
+                        <!--    <span class="section-subtitle contact__initial">Let's talk</span> -->
                         <h2 class="section-title contact__initial">Contact us</h2>
                         <p class="contact__description">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p>
                     </div>
@@ -426,12 +504,33 @@
         <footer class="footer section bd-container">
             <div class="footer__container bd-grid">
                 <div class="footer__content">
-                    <a href="#" class="footer__logo">Tasty Food</a>
+                    <a href="#" class="footer__logo" style="opacity: 1; color: #FFFFFF; background-color: #005F3C;">
+                        Tasty Food
+                      </a>
+                      
+                    <!-- <a href="#" class="footer__logo">Tasty Food</a> -->
                     <span class="footer__description">Restaurant</span>
                     <div>
-                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
-                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="footer__social" aria-label="Visit our Facebook page">
+                            <i class="bx bxl-facebook" aria-hidden="true"></i>
+                            <span class="visually-hidden">Visit our Facebook page</span>
+                          </a>
+                          
+                        <!-- <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a> -->
+
+                        <a href="#" class="footer__social" aria-label="Visit our Instagram page">
+                            <i class="bx bxl-instagram" aria-hidden="true"></i>
+                            <span class="visually-hidden">Visit our Instagram page</span>
+                          </a>
+                          
+                        <!-- <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a> -->
+
+                        <a href="#" class="footer__social" aria-label="Visit our twitter page">
+                            <i class="bx bxl-twitter" aria-hidden="true"></i>
+                            <span class="visually-hidden">Visit our twitter page</span>
+                          </a>
+                          
+                        <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a> -->
                     </div>
                 </div>
 
@@ -466,7 +565,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+            <p class="footer__copy" style="color: #FFFFFF; background-color: #005F3C;"> 2020 Bedimcode. All right reserved</p>
         </footer>
 
         <!--========== SCROLL REVEAL ==========-->
